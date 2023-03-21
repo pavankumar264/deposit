@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PBI ATM_Deposit</title>
+</head>
+<style type="text/css">
+    fieldset 
+    {
+    	margin-left:350px;
+		width:800px;
+		height: 400px;
+		background-color: olive;
+		text-align: center;
+	}
+	td
+	{
+		height: 50px;
+		padding: 20px;
+		padding-left:8px;
+		padding-top:50px;
+		font-size: x-large;
+		width: auto;
+	}
+	table
+	{
+		padding-left: 130px;
+	}
+	input
+	{
+		height: 30px;
+		text-align:center;
+		border-radius: 10px;
+	}
+	#sb
+	{
+		height: 80px;
+		width: 150px;
+		background-color: green;
+		font-size: xx-large;
+	}
+    </style>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body style="background-color:rgb(125,145,254);">
+<br>
+<center>
+<h1>Pavan Bank Of India (PBI)</h1>
+<h2>ATM- Cash Deposit</h2>
+</center>
+<a href="ATM_Home_Interface.html"><img alt="No Image found" src="pk.jpg" style="width: 5%;border-radius: 20px;"></a>
+    <fieldset>
+    <form action="CashDeposit">
+    	<table>
+    	 <tr>
+    	 	<td>Enter Your Mobile Number</td>
+    	 	<td>:</td>
+    	 	<td><input name="mb" placeholder="Enter Mobile number" required></td>
+    	 </tr>
+    	 <tr>
+    	 	<td>Enter Amount to be Deposited</td>
+    	 	<td>:</td>
+    	 	<td><input name="cashdeposit" placeholder="Enter Amount to Deposit" required></td>
+    	 </tr>
+    	 <tr>
+    	 	<td colspan="2"><input type="submit" id="sb" value="Deposit"></td>
+    	 	<td colspan="1">
+    	 	<a href="ThankYou.html">
+    	 	<input type="button" value="Cancel" style="height: 80px;width: auto;background-color: red;font-size: xx-large;">
+    	 	</a>
+    	 	</td>
+    	 </tr>
+    	</table>
+    </form>
+    </fieldset>
+    </body>
+</html>
